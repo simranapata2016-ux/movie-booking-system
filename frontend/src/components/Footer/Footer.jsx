@@ -192,19 +192,19 @@ const Footer = () => {
                 <div className={footerStyles.contactIconContainer}>
                   <Mail className={footerStyles.contactIcon} />
                 </div>
-                <span className={footerStyles.contactText}>contact@hexagonsservices.com</span>
+                <span className={footerStyles.contactText}>contact@simranservices.com</span>
               </li>
               <li className={footerStyles.contactItem}>
                 <div className={footerStyles.contactIconContainer}>
                   <Phone className={footerStyles.contactIcon} />
                 </div>
-                <span className={footerStyles.contactText}>+91 8299431275</span>
+                <span className={footerStyles.contactText}>+91 8888888888</span>
               </li>
               <li className={footerStyles.contactItem}>
                 <div className={footerStyles.contactIconContainer}>
                   <MapPin className={footerStyles.contactIcon} />
                 </div>
-                <span className={footerStyles.contactText}>Lucknow, India</span>
+                <span className={footerStyles.contactText}>Banglore, India</span>
               </li>
             </ul>
           </div>
@@ -218,18 +218,17 @@ const Footer = () => {
         </div>
 
         {/* Bottom bar */}
-        <div className={footerStyles.bottomBar}>
-          {/* Center: Designed by (plain text) + Hexagon Digital Services (link only) */}
+        <div className={footerStyles.bottomBar}
           <div className={footerStyles.designedBy}>
             <span className={footerStyles.designedByText}>Designed by</span>
             <a
-              href="https://hexagondigitalservices.com/"
+              href="https://simranapata.com/"
               target="_blank"
               rel="noopener noreferrer"
               className={footerStyles.designedByLink}
-              aria-label="Hexagon Digital Services"
+              aria-label="Simran Digital Services"
             >
-              Hexagon Digital Services
+              Simran Digital Services
             </a>
           </div>
           
